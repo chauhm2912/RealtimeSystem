@@ -2,7 +2,7 @@ import time
 
 start_time = time.time()
 
-file = open('E:\Chau\Ki8\CTPM_HTTG_Thuc\pg100.txt', "r")
+file = open('pg100.txt', "r")
 wordcount = {}
 for word in file.read().split():
 	if word not in wordcount:
